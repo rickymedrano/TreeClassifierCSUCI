@@ -1,6 +1,8 @@
 # Tree Classifier For 3 Species of Trees on CSUCI Campus
 
-![](titlePic.png)
+<p align="center">
+  <img src="./screenshots/titlePic.png" alt="Size Limit CLI" width="738">
+</p>
 
 This was the final project for COMP546 Pattern Recognition where we were tasked to classify objects of interest. I decided attempting to differentiate between California Sycamore, California Pepper Tree, and Jacaranda would be a good project. I made it more interesting by only looking at bark when attempting classification. Traditionally leaves are used but bark presented a good problem to solve. 
 
