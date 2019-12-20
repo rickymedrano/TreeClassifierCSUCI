@@ -3,9 +3,9 @@
   <img src="./screenshots/titlePic.png" alt="Title Picture">
 </p>
 
-  This was the final project for COMP546 Pattern Recognition where we were tasked to classify objects of interest. I decided attempting to differentiate between California Sycamore, California Pepper Tree, and Jacaranda would be a good project. I made it more interesting by only looking at bark when attempting classification. Traditionally leaves are used but bark presented a good problem to solve. 
+This was the final project for COMP546 Pattern Recognition where we were tasked to classify objects of interest. I decided attempting to differentiate between California Sycamore, California Pepper Tree, and Jacaranda would be a good project. I made it more interesting by only looking at bark when attempting classification. Traditionally leaves are used but bark presented a good problem to solve. 
 
-  This project was coded in MATLAB, specifically as a Live Script for easier understanding of the output. If you don't own MATLAB, you can still see the Live Script and its output in TreeClassifier.pdf which is annonated and breaks down the code in chunks.
+  This project was coded in MATLAB, specifically as a Live Script for easier understanding of the output. If you don't own MATLAB, you can still see the Live Script and its output in <a href="TreeClassifier.pdf" target="_blank">**TreeClassifier.pdf**</a> which is annonated and breaks down the code in chunks.
 
   In all, 4 Multi-Class Support Vector Machines were trained, and 1 Deep CNN. The first two SVMs were trained on the original image set in the folder 'images', comparing classifier accuracy when HOG features were extracted and when SURF features were extracted. This process was replicated again but on a texturied image set in the folder 'imagesWithTexture'. These images were genereated by applying a local entropy filter over them to highlight and bring out any texture in the images. Lastly, I used AlexNet to perform Transfer Learning on the original image set, which produced the best accuracy, about 85%. Here is the flow I took with the code:
 
