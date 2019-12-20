@@ -29,10 +29,10 @@ Clone the repository to your computer.
   Open MATLAB and navigate to the cloned directory. Open the Live Script. I HIGHLY recommend you "Run Section" instead of hitting "Run". I purposely made it a Live Script to sectionize it so you can walk through the code and see the outputs as you go. If you just hit "Run" it will train the 5 classifiers and start ouputting figures all over the place. 
 
 ### Notes
--Training the CNN took me about 5 minutes but this can vary depending on your computer specs. The images are very small and there aren't a ton so even slow computers should handle the training fairly quickly. 
--All accuracy scores will be different for you when running the Live Script due to some randomness when sorting the images into training and validation sets. 
--I commented the code to the best of my ability, so refer to these comments in the Live Script if you have questions how things work
--There is a bug in MATLAB where the imtile() function has some memory management issues when called more than once. I commented the code where the bug happens so you're not confused by the output. 
+- Training the CNN took me about 5 minutes but this can vary depending on your computer specs. The images are very small and there aren't a ton so even slow computers should handle the training fairly quickly. 
+- All accuracy scores will be different for you when running the Live Script due to some randomness when sorting the images into training and validation sets. 
+- I commented the code to the best of my ability, so refer to these comments in the Live Script if you have questions how things work
+- There is a bug in MATLAB where the imtile() function has some memory management issues when called more than once. I commented the code where the bug happens so you're not confused by the output. 
 
 ### Keywords
 Machine Learning, Transfer Learning, Pattern Recognition, Image Processing, Feature Extract, HOG Features, SURF Features, Multi-Class SVM, Image Datastore, Classifier, Image Classification, Bark
