@@ -1,16 +1,18 @@
 # Tree Classifier For 3 Species of Trees on CSUCI Campus
 
-This was the final project for COMP546 Pattern Recognition where we were tasked to classify objects of interest. I decided attempting to differentiate between California Sycamore, California Pepper Tree, and Jacaranda would be a good project.
+![](titlePic.png)
+
+This was the final project for COMP546 Pattern Recognition where we were tasked to classify objects of interest. I decided attempting to differentiate between California Sycamore, California Pepper Tree, and Jacaranda would be a good project. I made it more interesting by only looking at bark when attempting classification. Traditionally leaves are used but bark presented a good problem to solve. 
+
+This project was coded in MATLAB. 
 
 ## Getting Started
 
-Download the .mlx live script to your folder of choice along with the image folders. Here is what my project directory looks like
-
-![](header.png)
+Clone the repository to your computer. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+This code was tested on MATLAB 2019a and 2019b. You will also need the Deep Learning, Statistics & Machine Learning, Computer Vision, and Image Processing toolboxes. You will also need to download AlexNet from the Add-Ons.
 
 ```
 Give examples
@@ -46,13 +48,9 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
+### Keywords
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+Machine Learning, Transfer Learning, Pattern Recognition, Image Processing, Feature Extract, HOG Features, SURF Features, Multi-Class SVM, Image Datastore, Classifier, Image Classification, Bark
 
 ## Author
 
