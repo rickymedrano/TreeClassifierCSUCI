@@ -28,6 +28,7 @@ Clone the repository to your computer.
 
 ### Notes
 - This project was coded in MATLAB, specifically as a Live Script for easier understanding of the output. If you don't own MATLAB, you can still see the Live Script and its output in <a href="TreeClassifier.pdf" target="_blank">**TreeClassifier.pdf**</a> which is annonated and breaks down the code in chunks.
+- The Live Script will try and load "barknetmat.mat" that way you can run the code without training the CNN model. Due to size constraints, I'm not uploading this file and therefore you will need to comment out the load statement and uncomment out the line where trainNetwork() is called.
 - Training the CNN took me about 5 minutes but this can vary depending on your computer specs. The images are very small and there aren't a ton so even slow computers should handle the training fairly quickly. 
 - All accuracy scores will be different for you when running the Live Script due to some randomness when sorting the images into training and validation sets. 
 - I commented the code to the best of my ability, so refer to these comments in the Live Script if you have questions how things work
