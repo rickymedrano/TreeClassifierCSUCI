@@ -1,4 +1,4 @@
-# Tree Classifier For 3 Species of Trees using Bark on CSUCI Campus
+# Tree Classifier For 3 Species of Trees using Bark Texture on CSUCI Campus
 <p align="center">
   <img src="./screenshots/titlePic.png" alt="Title Picture">
 </p>
