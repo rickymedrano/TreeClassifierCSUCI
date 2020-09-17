@@ -35,7 +35,7 @@ Clone the repository to your computer.
 - There is a bug in MATLAB where the imtile() function has some memory management issues when called more than once. I commented the code where the bug happens so you're not confused by the output. 
 
 ### Keywords
-Machine Learning, Transfer Learning, Pattern Recognition, Image Processing, Feature Extract, HOG Features, SURF Features, Multi-Class SVM, Image Datastore, Classifier, Image Classification, Bark
+Machine Learning, Transfer Learning, Pattern Recognition, Image Processing, Feature Extract, HOG Features, SURF Features, Multi-Class SVM, Image Datastore, Classifier, Image Classification, Bark, Data Mining, Computer Vision
 
 ## Author
 Ricky Medrano
